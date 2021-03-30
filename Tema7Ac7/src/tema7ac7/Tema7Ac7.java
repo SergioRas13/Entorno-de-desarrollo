@@ -9,7 +9,7 @@ public class Tema7Ac7 {
      //versión GitHub
     public static void main(String[] args) {
      Scanner teclado = new Scanner(System.in);
-     int n;
+     int m;
      Object[] vector = new Object[50];
      for(int i=0; i<vector.length; i++){
      System.out.println("Introduzca dato número "+(i+1)+": ");
