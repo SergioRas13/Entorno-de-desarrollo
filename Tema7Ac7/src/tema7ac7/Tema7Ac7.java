@@ -13,11 +13,13 @@ public class Tema7Ac7 {
      Object[] vector = new Object[50];
      for(int i=0; i<vector.length; i++){
      System.out.println("Introduzca dato número "+(i+1)+": ");
+     System.out.println("Introduzca dato número "+(i+1)+": ");
      vector[i]=teclado.nextInt();
      }
      //versión GitHub
      int encontrado=100;
      for(int i=0; i<vector.length; i++){   
+         System.out.println("Introduzca dato número "+(i+1)+": ");
      if (vector[i].equals(0))   
      if (encontrado==100)
          encontrado=i;     
