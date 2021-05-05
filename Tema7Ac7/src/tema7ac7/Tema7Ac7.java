@@ -23,8 +23,9 @@ public class Tema7Ac7 {
          encontrado=i;     
      }
       //versión GitHub
-     if (encontrado!=100)
+     if (encontrado!=100){
      System.out.println("La posición del primer número con valor 0 es: "+encontrado);
+     System.out.println("La posición : "+encontrado);}
      else
      System.out.println("No hay números con valor 0");
      }
